@@ -9,7 +9,7 @@
 
 ## Get Started
 
-Ready to take control of your finances? Follow these simple steps:
+Follow these simple steps:
 
 1. **Clone** the repository to your local machine.
 2. **Open** the `index.html` file in your web browser and access your account with ease.
