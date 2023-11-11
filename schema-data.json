@@ -1,0 +1,33 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebApplication",
+  "name": "Bank app",
+  "description": "This code converts the bank app information into a JSON-LD format with appropriate types and descriptions.",
+  "url": "https://www.example.com/bank-app",
+  "image": "/bank.jpg",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.example.com/bank-app/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "hasPart": [
+    {
+      "@type": "WebPage",
+      "name": "Log in",
+      "description": "Log in to get started with the bank app.",
+      "url": "https://www.example.com/bank-app/login"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Transfer money",
+      "description": "Transfer money to another account.",
+      "url": "https://www.example.com/bank-app/transfer"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Request loan",
+      "description": "Request a loan from the bank.",
+      "url": "https://www.example.com/bank-app/loan"
+    }
+  ]
+}
